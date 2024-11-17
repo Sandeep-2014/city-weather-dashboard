@@ -1,0 +1,115 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    /* margin: 0;
+    padding: 0; */
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* General container styling */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.container h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Input styling */
+#cityInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+#cityInput:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+ #currentDiv{
+    max-width: 440px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#forcastDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contentDiv{
+    flex-basis: 23%;
+    border: 2px solid black;
+    /* text-align: center; */
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentDiv img{
+    height: 50px;
+    width: 50px;
+}
+
+.contentDiv h2, .contentDiv h3, .contentDiv p{
+    margin: 8px;
+}
